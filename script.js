@@ -6,6 +6,9 @@ function createNewCard() {
   cardElement.classList.add("card");
 
 	// Step 3: Write the HTML for the children of the card element (card-down and card-up) as a normal string and assign it as the innerHTML of cardElement.
+    //testing
+    //
+    
   cardElement.innerHTML = `<div class="card-down"></div>
     <div class="card-up"></div>`
 
